@@ -19,7 +19,7 @@ var call_handler = function(request, response) {
 						playBeep: "true",
 						action: "http://notapme.herokuapp.com/newrecord",
 						method: "get",
-						finishOnKey: "#",
+						finishOnKey: "",
 						timeout: 3600
 					}}
 				]
