@@ -18,7 +18,9 @@ var call_handler = function(request, response) {
 					_attr: {
 						playBeep: "true",
 						action: "http://notapme.herokuapp.com/newrecord",
-						method: "get"
+						method: "get",
+						finishOnKey: "#",
+						timeout: 3600
 					}}
 				]
 
