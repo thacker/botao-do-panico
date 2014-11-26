@@ -7,13 +7,13 @@ var app = express();
 
 var home_handler = function(request, response) {
 	response.send('Hello World!');
+	
 };
 
 var call_handler = function(request, response) {
 	//response.send("call");
 	var x = xml([{ 
 			Response: [{
-
 				Record: [
 					_attr: {
 						playBeep: "true",
@@ -26,6 +26,9 @@ var call_handler = function(request, response) {
 		}], { declaration: { encoding: 'UTF-8' }})
 
 	response.send(x);
+
+
+
 
 /*
 
