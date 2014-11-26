@@ -7,19 +7,19 @@ var app = express();
 
 var home_handler = function(request, response) {
 	response.send('Hello World!');
-	
+
 };
 
 var call_handler = function(request, response) {
 	//response.send("call");
 	var x = xml([{ 
 			Response: [{
-				Record: [
+				Record: [{
 					_attr: {
 						playBeep: "true",
 						action: "http://notapme.herokuapp.com/newrecord",
 						method: "get"
-					}
+					}}
 				]
 
 			}]
@@ -28,16 +28,14 @@ var call_handler = function(request, response) {
 	response.send(x);
 
 
+	/*
 
-
-/*
-
-<?xml version="1.0" encoding="UTF-8" ?>
-<Response>
-	<Record timeout="10" playBeep="true" action="http://notapme.herokuapp.com/newrecord" />
-	<Say voice="alice" language="pt-BR" loop="2">Bom dia.</Say>
-</Response>
-*/
+	<?xml version="1.0" encoding="UTF-8" ?>
+	<Response>
+		<Record timeout="10" playBeep="true" action="http://notapme.herokuapp.com/newrecord" />
+		<Say voice="alice" language="pt-BR" loop="2">Bom dia.</Say>
+	</Response>
+	*/
 
 
 };
@@ -67,7 +65,6 @@ app.use(express.static(__dirname + '/public'));
 
 app.get('/', home_handler);
 app.get('/records', records_handler);
-
 
 app.get('/call', call_handler);
 app.get('/newrecord', newrecord_handler);
