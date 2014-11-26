@@ -13,14 +13,15 @@ var call_handler = function(request, response) {
 	//response.send("call");
 	var x = xml([{ 
 			Response: [{
-				Say: [{
+
+				Record: [
 					_attr: {
-						voice: "alice",
-						language: "pt-BR",
-						loop: "2"
-					}},
-					"Bom dia"
+						playBeep: "true",
+						action: "http://notapme.herokuapp.com/newrecord",
+						method: "get"
+					}
 				]
+
 			}]
 		}], { declaration: { encoding: 'UTF-8' }})
 
@@ -30,7 +31,8 @@ var call_handler = function(request, response) {
 
 <?xml version="1.0" encoding="UTF-8" ?>
 <Response>
-     <Say voice="alice" language="pt-BR" loop="2">Bom dia.</Say>
+	<Record timeout="10" playBeep="true" action="http://notapme.herokuapp.com/newrecord" />
+	<Say voice="alice" language="pt-BR" loop="2">Bom dia.</Say>
 </Response>
 */
 
@@ -65,6 +67,8 @@ app.get('/records', records_handler);
 
 
 app.get('/call', call_handler);
+app.get('/newrecord', newrecord_handler);
+
 app.post('/call', call_handler);
 app.post('/newrecord', newrecord_handler);
 
