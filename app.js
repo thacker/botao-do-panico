@@ -43,18 +43,29 @@ var call_handler = function(request, response) {
 };
 
 var newrecord_handler = function(request, response) {
-	response.send("new_record");
+	var url = require('url');
+	var url_parts = url.parse(request.url, true);
+	var query = url_parts.query;
 
+	console.log("url_parts", url_parts);
+	console.log("query", query);
+
+	response.send("new_record");
 };
 
 var records_handler = function(request, response) {
 
+	var url = require('url');
+	var url_parts = url.parse(request.url, true);
+	var query = url_parts.query;
+
+	console.log("url_parts", url_parts);
+	console.log("query", query);
 
 
 	//response.send("records_list");
-	var name_of_restaurants = ["a", "b"];
-
-	response.json({'restaurants' : name_of_restaurants });
+	//var name_of_restaurants = ["a", "b"];
+	//response.json({'restaurants' : name_of_restaurants });
 
 };
 
