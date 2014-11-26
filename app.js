@@ -5,26 +5,37 @@ var app = express();
 
 
 var home_handler = function(request, response) {
-	response.send('Hello World!')
+	response.send('Hello World!');
 };
 
-var call_handler = function(request, response) {};
+var call_handler = function(request, response) {
+	response.send("call");
 
-var newrecord_handler = function(request, response) {};
+};
 
-var records_handler = function(request, response) {};
+var newrecord_handler = function(request, response) {
+	response.send("new_record");
+
+};
+
+var records_handler = function(request, response) {
+	response.send("records_list");
+
+};
 
 
+console.log(process.env.PORT);
 
 
-
-app.set('port', (process.env.PORT || 5000))
-app.use(express.static(__dirname + '/public'))
+app.set('port', (process.env.PORT || 5004));
+app.use(express.static(__dirname + '/public'));
 
 app.get('/', home_handler);
-app.get('/call', call_handler);
-app.get('/newrecord', newrecord_handler);
 app.get('/records', records_handler);
+
+
+app.post('/call', call_handler);
+app.post('/newrecord', newrecord_handler);
 
 
 
