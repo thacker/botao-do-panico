@@ -1,0 +1,34 @@
+{
+  "name": "botao-do-panico",
+  "version": "0.0.0",
+  "description": "hackathon de genero Camara dos Deputados - BR",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+  "dependencies": {
+    "express": "~4.9.x"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thacker/botao-do-panico.git"
+  },
+  "keywords": [
+    "hackathon",
+    "genero",
+    "botao",
+    "do",
+    "panico"
+  ],
+  "author": "Luis Leao, Vitor Baptista, Leandro Correia",
+  "license": "Apache v2.0",
+  "bugs": {
+    "url": "https://github.com/thacker/botao-do-panico/issues"
+  },
+  "homepage": "https://github.com/thacker/botao-do-panico"
+}
