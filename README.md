@@ -1,29 +1,37 @@
 Botão do pânico
 ===============
 
-Projeto de Botão do Pânico criado na II Hackathon da Câmara dos Deputados
+Este projeto cria uma forma de uma vítima de violência doméstica pedir socorro
+durante um ataque e gravar o som ambiente, servindo como provas para um
+processo judicial.
+
+Desenvolvido no [II Hackathon da Câmara dos Deputados][ii-hackathon].
 
 Justificativa
 -------------
 
 Uma mulher que sofre de violência doméstica tem poucas opções para se defender.
-Durante um ataque, chamar a polícia pelo 190 é impraticável, vizinhos que ouçam
-a luta podem não querer "meter a colher", tanto por uma questão cultural quanto
-por medo de uma represália do agressor. A vítima está sozinha.
+Durante um ataque, esperar por atendimento no 190, passar seu endereço e
+explicar a situação é impraticável, vizinhos que ouçam a luta podem não querer
+"meter a colher", tanto por cultura quanto por medo de uma represália do
+agressor. A vítima está sozinha.
 
-Uma solução implantada em algumas cidades é o "botão do pânico", um aparelho
-dado a vítima de violência consiga pedir socorro a polícia em uma emergência.
-Nos aparelhos implantados em Vítoria do Espírito Santo, a pessoa discretamente
-aperta um botão e, automaticamente, ele começa a gravar o som ambiente para ser
-usado como provas da agressão, e avisa a polícia.
+A solução de algumas cidades foi criar um "botão do pânico", um aparelho com o
+qual a vítima de violência consegue pedir socorro a polícia em uma emergência.
+Vitória, capital do Espírito Santo, implantou esse sistema em 2013. O
+dispositivo que usam lembra um controle remoto de portão de garagens, só que
+maior. Com ele, a vítima pode discretamente apertar um botão que,
+automaticamente, envia um pedido de socorro à polícia com a localização da
+pessoa e grava o som ambiente para ser usado como provas.
 
-A juíza Clésia dos Santos Barros, da 11a Vara Criminal de Vitória, cita um caso
+A juíza Clésia dos Santos Barros da 11ª Vara Criminal de Vitória cita um caso
 em [uma matéria para o Fantástico][mulher-agredida-filho] onde o botão do
 pânico salvou a vida de uma mulher. Ela sofria de agressões de um filho
-dependente de drogas e, após ameaças, ela recebeu um botão do pânico. Depois
-disso, quando o filho a procurou novamente em sua residência, ela acionou o
-botão e a guarda chegou em minutos. "Esse botão salvou minha vida porque,
-naquele dia, se eu não tivesse o botão ele ia me matar", conta ela.
+dependente de drogas e recebeu um botão do pânico. Algum tempo depois, o filho
+a procurou novamente batendo na porta de sua casa, e ela acionou o botão. A
+guarda chegou minutos depois, conseguindo evitar o ataque. "Esse botão salvou
+minha vida porque, naquele dia, se eu não tivesse o botão ele ia me matar",
+conta ela.
 
 Apesar de diversos casos de sucesso do uso dessa tecnologia, ela ainda é pouco
 acessível. João Pessoa, por exemplo, tem um programa semelhante ao do Espírito
@@ -132,6 +140,7 @@ Licença
 Este projeto está licenciado sob a GNU Affero General Public License (AGPL)
 v3.0 ou superior.
 
+[ii-hackathon]: http://edemocracia.camara.gov.br/web/hackathon-de-genero-e-cidadania/inicio#.VHcr0lzN-kB
 [mulher-agredida-filho]: http://g1.globo.com/fantastico/noticia/2014/09/mulher-agredida-pelo-proprio-filho-so-tem-paz-apos-receber-botao-do-panico.html
 [correio-da-paraiba]: http://portalcorreio.uol.com.br/noticias/policia/seguranca/2014/08/11/NWS,244558,8,409,NOTICIAS,2190-BAYEUX-CABEDELO-RECEBEM-APARELHOS-PROGRAMA-SOS-MULHER.aspx
 [uso-smartphone]: http://idgnow.com.br/blog/circuito/2014/01/22/base-de-usuarios-de-smartphones-na-america-latina-vai-aumentar-283-em-2014/
