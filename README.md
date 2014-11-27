@@ -126,7 +126,11 @@ para divulgar o sistema e auxiliar mulheres a se cadastrar e configurar seus
 celulares. Nesse caso, o cadastro de uma mulher poderia ser feito através de
 uma entidade local.
 
----
+Licença
+-------
+
+Este projeto está licenciado sob a GNU Affero General Public License (AGPL)
+v3.0 ou superior.
 
 [mulher-agredida-filho]: http://g1.globo.com/fantastico/noticia/2014/09/mulher-agredida-pelo-proprio-filho-so-tem-paz-apos-receber-botao-do-panico.html
 [correio-da-paraiba]: http://portalcorreio.uol.com.br/noticias/policia/seguranca/2014/08/11/NWS,244558,8,409,NOTICIAS,2190-BAYEUX-CABEDELO-RECEBEM-APARELHOS-PROGRAMA-SOS-MULHER.aspx
