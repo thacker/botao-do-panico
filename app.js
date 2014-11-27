@@ -43,7 +43,17 @@ var call_handler = function(request, response) {
 	//response.send("call");
 	var x = xml([{ 
 			Response: [{
-				Record: [{
+
+				Sms: [
+					{
+						_attr: {
+							to: "+5511983370955"
+						}
+					},
+					"TESTE " + new Date()
+				]},
+
+				{Record: [{
 					_attr: {
 						playBeep: "true",
 						action: "http://notapme.herokuapp.com/newrecord",
@@ -65,27 +75,27 @@ var call_handler = function(request, response) {
 
 
 
-	twilio.sendMessage({
+	// twilio.sendMessage({
 
-		to: '+5511983370955', // Any number Twilio can deliver to
-		from: '+14703308407', // A number you bought from Twilio and can use for outbound communication
-		body:  JSON.stringify(url_parts.query) //query.Caller + " " + query.CallerCity // body of the SMS message
+	// 	to: '+5511983370955', // Any number Twilio can deliver to
+	// 	from: '+14703308407', // A number you bought from Twilio and can use for outbound communication
+	// 	body:  JSON.stringify(url_parts.query) //query.Caller + " " + query.CallerCity // body of the SMS message
 
-	}, function(err, responseData) { //this function is executed when a response is received from Twilio
-		console.log("SMS RESULT", err, responseData);
+	// }, function(err, responseData) { //this function is executed when a response is received from Twilio
+	// 	console.log("SMS RESULT", err, responseData);
 
-		if (!err) { // "err" is an error received during the request, if any
+	// 	if (!err) { // "err" is an error received during the request, if any
 
-			// "responseData" is a JavaScript object containing data received from Twilio.
-			// A sample response from sending an SMS message is here (click "JSON" to see how the data appears in JavaScript):
-			// http://www.twilio.com/docs/api/rest/sending-sms#example-1
+	// 		// "responseData" is a JavaScript object containing data received from Twilio.
+	// 		// A sample response from sending an SMS message is here (click "JSON" to see how the data appears in JavaScript):
+	// 		// http://www.twilio.com/docs/api/rest/sending-sms#example-1
 
-			console.log(responseData.from); // outputs "+14506667788"
-			console.log(responseData.body); // outputs "word to your mother."
+	// 		console.log(responseData.from); // outputs "+14506667788"
+	// 		console.log(responseData.body); // outputs "word to your mother."
 
-		}
+	// 	}
 
-	});
+	// });
 
 
 	response.send(x);
