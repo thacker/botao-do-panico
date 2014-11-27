@@ -68,50 +68,56 @@ sendo acessível para mais pessoas.
 
 ### Como funciona?
 
+![Como funciona](como-funciona.svg)
+
 Para isso, criamos um número de telefone que ao receber a ligação de uma pessoa
 previamente cadastrada, atende automaticamente iniciando a gravação do som
-ambiente e envia uma mensagem de socorro com o nome e endereço dessa vítima
-para uma rede de apoio.
+ambiente e envia mensagens de socorro com o nome e endereço dessa vítima para
+uma rede de apoio.
 
-...
+De posse desse pedido de socorro, essa rede de apoio aciona as autoridades para
+auxiliar a vítima.
 
-### Funcionamento
-
-O primeiro passo para uma pessoa que precise usar nosso projeto é se cadastrar.
+### Cadastro
 
 O cadastro se dá através de ONGs ou outras instituições parceiras do projeto.
 Elas irão adicionar no sistema o nome, telefone e endereço dessa vítima, e
-auxiliá-la na configuração do seu celular.
+auxiliá-la na configuração do seu celular, para adicionar o número na lista de
+discagem rápida.
 
-Essas institucio
+### Rede de apoio
 
+A rede de apoio é formada por pessoas de ONGs parceiras, possivelmente a mesma
+onde a pessoa fez seu cadastro. A rede também pode ser formada por amigos ou
+parentes da vítima, mas preferimos que haja essa opção dela ser formada por
+terceiros sem contato com o agressor para evitar represálias.
 
+Por isso, o nome dos integrantes da rede de apoio não é divulgado.
 
+## Perguntas frequentes
 
+### Como é feito o cadastro?
 
+A vítima de violência doméstica se cadastra através de um parceiro do projeto,
+como ONGs e outras organizações. Esse parceiro inscreve seus dados, número de
+telefone, explica o funcionamento e auxilia a configurar a discagem rápida no
+seu celular. A partir desse momento, essa pessoa já pode utilizar o serviço.
 
+### Por quê não smartphone?
 
-Nele, teremos informações como seu nome, telefone e endereço da sua
-residência.
+Segundo os dados de XXX, em 2014, apenas 20% de 
+Para que o serviço atinja as principais 
 
-Estando cadastrada, ela precisará adicionar nosso número de telefone na lista
-de discagem rápida no seu celular. A discagem rápida serve para configurar um
-número que, pressionado por alguns segundos, disque automaticamente para um
-número pré-definido.
+## Licença
 
-Essa etapa prévia se dá quando ela não está em uma situação de risco. Isso
-sendo feito, quando houver a necessidade de pedir socorro, basta ela segurar o
-botão definido no seu celular por alguns segundos. Automaticamente, esse número
-aceitará sua chamada, começará a gravação e avisará a sua rede de apoio (O QUE
-E REDE DE APOIO).
+Este projeto está licenciado sob a GNU Affero General Public License (AGPL)
+v3.0 ou superior.
 
-As pessoas da rede de apoio receberão uma mensagem avisando que essa pessoa
-está pedindo socorro, com seu nome e endereço. A partir daí, elas precisarão
-acionar a polícia pelo 190, ou tomar alguma outra providência que seja
-necessária.
+### Ícones
 
-Quando o perigo passar, ela desliga a ligação. Tudo já estará gravado e
-disponível para ser usado como prova caso necessário.
+Ícones [Police Car][tnp-29232] por Luis Prado, [Cell Phone][tnp-3204] por Alex
+Hartman, e [Person][tnp-12133] por Ferran Brown, retirados do [The Noun
+Project][tnp]
 
 [plp-20]: http://www.plp20.org.br/
 [geledes]: http://www.geledes.org.br/
@@ -121,3 +127,7 @@ disponível para ser usado como prova caso necessário.
 [correio-da-paraiba]: http://portalcorreio.uol.com.br/noticias/policia/seguranca/2014/08/11/NWS,244558,8,409,NOTICIAS,2190-BAYEUX-CABEDELO-RECEBEM-APARELHOS-PROGRAMA-SOS-MULHER.aspx
 [uso-smartphone]: http://idgnow.com.br/blog/circuito/2014/01/22/base-de-usuarios-de-smartphones-na-america-latina-vai-aumentar-283-em-2014/
 [cunhada-assassinada]: http://g1.globo.com/pb/paraiba/noticia/2014/11/professora-e-assassinada-na-pb-e-suspeito-diz-ser-ex-cunhado-da-vitima.html
+[tnp]: http://thenounproject.com
+[tnp-29232]: http://thenounproject.com/term/police-car/29232/
+[tnp-3204]: http://thenounproject.com/term/cell-phone/3204/
+[tnp-12133]: http://thenounproject.com/term/person/12133/
