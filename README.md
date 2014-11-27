@@ -10,12 +10,15 @@ Desenvolvido no [II Hackathon da Câmara dos Deputados][ii-hackathon].
 Justificativa
 -------------
 
+# Problema
+
 Uma mulher que sofre de violência doméstica tem poucas opções para se defender.
 Durante um ataque, esperar por atendimento no 190, passar seu endereço e
 explicar a situação é impraticável, vizinhos que ouçam a luta podem não querer
 "meter a colher", tanto por cultura quanto por medo de uma represália do
 agressor. A vítima está sozinha.
 
+# Solução do governo
 A solução de algumas cidades foi criar um "botão do pânico", um aparelho com o
 qual a vítima de violência consegue pedir socorro a polícia em uma emergência.
 Vitória, capital do Espírito Santo, implantou esse sistema em 2013. O
@@ -24,6 +27,7 @@ maior. Com ele, a vítima pode discretamente apertar um botão que,
 automaticamente, envia um pedido de socorro à polícia com a localização da
 pessoa e grava o som ambiente para ser usado como provas.
 
+# Exemplo do uso dessa solução
 A juíza Clésia dos Santos Barros da 11ª Vara Criminal de Vitória cita um caso
 em [uma matéria para o Fantástico][mulher-agredida-filho] onde o botão do
 pânico salvou a vida de uma mulher. Ela sofria de agressões de um filho
@@ -33,6 +37,7 @@ guarda chegou minutos depois, conseguindo evitar o ataque. "Esse botão salvou
 minha vida porque, naquele dia, se eu não tivesse o botão ele ia me matar",
 conta ela.
 
+# Problema da solução
 Apesar de diversos casos de sucesso do uso dessa tecnologia, ela ainda é pouco
 acessível. João Pessoa, por exemplo, tem um programa semelhante ao do Espírito
 Santo chamado SOS Mulher. Segundo uma [matéria para o jornal Correio da
@@ -41,11 +46,13 @@ protetivas solicitadas à Justiça e, ao mesmo tempo, só 15 aparelhos foram
 disponibilizados. Por isso, entendemos que há uma demanda para esse programa
 muito maior que a oferta de aparelhos.
 
+# Solução alternativa usando smartphone
 Entendendo esse problema, outras pessoas estão tentando criar uma forma de
 universalizar o acesso a essa tecnologia. O projeto XXX, premiado em 500
 mil reais pelo Google, desenvolveu um aplicativo para smartphones Android que
 replica a funcionalidade do botão do pânico, ACIONANDO BLA BLA BLA
 
+# Problema da solução alternativa
 Apesar dessa iniciativa ser mais acessível do que os atuais botões do pânico,
 ela tem outro problema: requer que essa mulher tenha um smartphone Android e um
 plano de dados ativo. Segundo [estimativas do eMarketer de dezembro de
@@ -57,6 +64,8 @@ Um aplicativo para smartphone é importante e permite funcionalidades como
 repassar a localização exata por GPS para a polícia, mas impossibilita o acesso
 por mulheres carentes, que são as em maior situação de risco e que mais se
 beneficiariam de um sistema assim (CITATION NEEDED)
+
+# Nossa solução
 
 Nosso projeto tem como público-alvo pessoas nessas situações. De classes
 econômicas mais baixas e possivelmente analfabetas. O único requisito é que
@@ -133,6 +142,21 @@ cuidado com a privacidade dos dados da vítima, também encontramos um caminho
 para divulgar o sistema e auxiliar mulheres a se cadastrar e configurar seus
 celulares. Nesse caso, o cadastro de uma mulher poderia ser feito através de
 uma entidade local.
+
+## Perguntas frequentes
+
+### Como é feito o cadastro?
+
+A vítima de violência doméstica se cadastra através de um parceiro do projeto,
+como ONGs e outras organizações. Esse parceiro inscreve seus dados, número de
+telefone, explica o funcionamento e auxilia a configurar a discagem rápida no
+seu celular. A partir desse momento, essa pessoa já pode utilizar o serviço.
+
+### Por quê não smartphone?
+
+Segundo os dados de XXX, em 2014, apenas 20% de 
+Para que o serviço atinja as principais 
+
 
 Licença
 -------
