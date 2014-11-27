@@ -58,7 +58,6 @@ var call_handler = function(request, response) {
 
 
 
-
 	//console.log("Caller", query.Caller);
 	//console.log("CallerCity", query.CallerCity);
 	//console.log("RecordingUrl", query.RecordingUrl);
@@ -153,8 +152,8 @@ app.get('/records', records_handler);
 app.get('/call', call_handler);
 app.get('/newrecord', newrecord_handler);
 
-app.post('/call', call_handler);
-app.post('/newrecord', newrecord_handler);
+//app.post('/call', call_handler);
+//app.post('/newrecord', newrecord_handler);
 
 
 
@@ -169,27 +168,27 @@ app.listen(app.get('port'), function() {
 
 
 
-	twilio.sendMessage({
+	// twilio.sendMessage({
 
-		to: '+5511983370955', // Any number Twilio can deliver to
-		from: '+14703308407', // A number you bought from Twilio and can use for outbound communication
-		body:  "teste" //query.Caller + " " + query.CallerCity // body of the SMS message
+	// 	to: '+5511983370955', // Any number Twilio can deliver to
+	// 	from: '+14703308407', // A number you bought from Twilio and can use for outbound communication
+	// 	body:  "teste" //query.Caller + " " + query.CallerCity // body of the SMS message
 
-	}, function(err, responseData) { //this function is executed when a response is received from Twilio
-		console.log("SMS RESULT", err, responseData);
+	// }, function(err, responseData) { //this function is executed when a response is received from Twilio
+	// 	console.log("SMS RESULT", err, responseData);
 
-		if (!err) { // "err" is an error received during the request, if any
+	// 	if (!err) { // "err" is an error received during the request, if any
 
-			// "responseData" is a JavaScript object containing data received from Twilio.
-			// A sample response from sending an SMS message is here (click "JSON" to see how the data appears in JavaScript):
-			// http://www.twilio.com/docs/api/rest/sending-sms#example-1
+	// 		// "responseData" is a JavaScript object containing data received from Twilio.
+	// 		// A sample response from sending an SMS message is here (click "JSON" to see how the data appears in JavaScript):
+	// 		// http://www.twilio.com/docs/api/rest/sending-sms#example-1
 
-			console.log(responseData.from); // outputs "+14506667788"
-			console.log(responseData.body); // outputs "word to your mother."
+	// 		console.log(responseData.from); // outputs "+14506667788"
+	// 		console.log(responseData.body); // outputs "word to your mother."
 
-		}
+	// 	}
 
-	});
+	// });
 
 
 
