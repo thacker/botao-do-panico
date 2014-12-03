@@ -70,22 +70,24 @@ sendo acessível para mais pessoas.
 
 ![Como funciona](como-funciona.png)
 
-Para isso, criamos um número de telefone que ao receber a ligação de uma pessoa
-previamente cadastrada, atende automaticamente iniciando a gravação do som
-ambiente e envia mensagens de socorro com o nome e endereço dessa vítima para
-uma rede de apoio.
+A vítima se cadastra no nosso sistema previamente, repassando dados como nome e
+endereço, e configura a discagem rápida do seu celular para chamar nosso
+número.
 
-De posse desse pedido de socorro, essa rede de apoio aciona as autoridades para
-auxiliar a vítima.
+Feito esse cadastro, quando essa pessoa estiver em uma situação de risco, ela
+pode apertar o botão configurado no seu celular. Este irá ligar para nosso
+número que, automaticamente, iniciará a gravação do som ambiente e enviará
+mensagens de socorro com seus dados para sua rede de apoio. Esta rede de apoio,
+por sua vez, acionará as autoridades para prestar socorro.
 
-### Cadastro
+#### Cadastro
 
 O cadastro se dá através de ONGs ou outras instituições parceiras do projeto.
 Elas irão adicionar no sistema o nome, telefone e endereço dessa vítima, e
 auxiliá-la na configuração do seu celular, para adicionar o número na lista de
 discagem rápida.
 
-### Rede de apoio
+#### Rede de apoio
 
 A rede de apoio é formada por pessoas de ONGs parceiras, possivelmente a mesma
 onde a pessoa fez seu cadastro. A rede também pode ser formada por amigos ou
