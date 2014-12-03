@@ -96,6 +96,19 @@ terceiros sem contato com o agressor para evitar represálias.
 
 Por isso, o nome dos integrantes da rede de apoio não é divulgado.
 
+## Limitações
+
+O fato de usarmos celulares burros (não smartphones) nos dá vantagens, ao
+possibilitar mais pessoas terem acesso a esse serviço, mas também nos dá
+desvantagens. O maior problema é que não conseguimos a localização da vítima.
+Se esse ataque acontecer fora de sua residência, não sabemos onde ela está e a
+polícia não vai conseguir ajudá-la. Nesse caso, a funcionalidade do botão se
+limita a gravação do ataque para uso como provas.
+
+Apesar disso, há estatísticas que apontam que mais de [70% dos ataques ocorrem
+na residência da vítima][cpmi-mulher], então esperamos conseguir enviar ajuda
+na maior parte dos casos.
+
 ## Perguntas frequentes
 
 ### Como é feito o cadastro?
@@ -129,6 +142,7 @@ Project][tnp]
 [correio-da-paraiba]: http://portalcorreio.uol.com.br/noticias/policia/seguranca/2014/08/11/NWS,244558,8,409,NOTICIAS,2190-BAYEUX-CABEDELO-RECEBEM-APARELHOS-PROGRAMA-SOS-MULHER.aspx
 [uso-smartphone]: http://idgnow.com.br/blog/circuito/2014/01/22/base-de-usuarios-de-smartphones-na-america-latina-vai-aumentar-283-em-2014/
 [cunhada-assassinada]: http://g1.globo.com/pb/paraiba/noticia/2014/11/professora-e-assassinada-na-pb-e-suspeito-diz-ser-ex-cunhado-da-vitima.html
+[cpmi-mulher]: http://www.senado.gov.br/atividade/comissoes/comissao.asp?origem=CN&com=1580
 [tnp]: http://thenounproject.com
 [tnp-29232]: http://thenounproject.com/term/police-car/29232/
 [tnp-3204]: http://thenounproject.com/term/cell-phone/3204/
