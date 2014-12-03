@@ -118,10 +118,17 @@ como ONGs e outras organizações. Esse parceiro inscreve seus dados, número de
 telefone, explica o funcionamento e auxilia a configurar a discagem rápida no
 seu celular. A partir desse momento, essa pessoa já pode utilizar o serviço.
 
-### Por quê não smartphone?
+### Há como esconder que meu celular está configurado com o botão do pânico?
 
-Segundo os dados de XXX, em 2014, apenas 20% de 
-Para que o serviço atinja as principais 
+Infelizmente não. Caso o agressor tenha acesso ao celular e saiba o número do
+nosso sistema, ele saberá que seu telefone está cadastrado. Para dificultar
+isso, você pode limpar o registro de chamadas sempre depois de acionar o botão
+do pânico, e gravar o número com um nome qualquer, por exemplo "Maria".
+
+Apesar disso, caso o agressor veja um número suspeito no celular e ligue para
+ele, não vai ouvir nada. Não há nenhuma mensagem quando você liga para o botão
+do pânico, simplesmente atendemos a ligação e iniciamos a gravação. E, se ele
+ligar de um número não cadastrado, a ligação sequer será atendida.
 
 ## Licença
 
