@@ -68,7 +68,7 @@ sendo acessível para mais pessoas.
 
 ### Como funciona?
 
-![Como funciona](como-funciona.svg)
+![Como funciona](como-funciona.png)
 
 Para isso, criamos um número de telefone que ao receber a ligação de uma pessoa
 previamente cadastrada, atende automaticamente iniciando a gravação do som
