@@ -1,33 +1,31 @@
-Botão do pânico
-===============
+# NoTap.me
 
-Este projeto cria uma forma de uma vítima de violência doméstica pedir socorro
-durante um ataque e gravar o som ambiente, servindo como provas para um
-processo judicial.
+A violência doméstica no Brasil é um problema social sério. ADICIONA!!!
 
-Desenvolvido no [II Hackathon da Câmara dos Deputados][ii-hackathon].
+## Justificativa
 
-Justificativa
--------------
+Ao sofrer violência doméstica a vítima tem poucas opções para se defender.
+A espera pelo atendimento através do 190 e a necessidade de informar seus dados
+nesse momento é impraticável. Além disso, a vítima não pode depender da ajuda
+de vizinhos ou familiares que possam ter ouvido o conflito, pois há uma cultura
+de não interferir nas relações dos outros e o medo em relação a uma possível
+represália do agressor.
 
-# Problema
+A vítima está sozinha.
 
-Uma mulher que sofre de violência doméstica tem poucas opções para se defender.
-Durante um ataque, esperar por atendimento no 190, passar seu endereço e
-explicar a situação é impraticável, vizinhos que ouçam a luta podem não querer
-"meter a colher", tanto por cultura quanto por medo de uma represália do
-agressor. A vítima está sozinha.
+## Solução do governo
 
-# Solução do governo
 A solução de algumas cidades foi criar um "botão do pânico", um aparelho com o
 qual a vítima de violência consegue pedir socorro a polícia em uma emergência.
-Vitória, capital do Espírito Santo, implantou esse sistema em 2013. O
-dispositivo que usam lembra um controle remoto de portão de garagens, só que
-maior. Com ele, a vítima pode discretamente apertar um botão que,
-automaticamente, envia um pedido de socorro à polícia com a localização da
-pessoa e grava o som ambiente para ser usado como provas.
+Na capital do Espírito Santo, Vitória, o sistema foi implantado em 2013 e tem
+dado bons resultados. O dispositivo usado lembra um controle remoto de portão
+de garagem, é discreto e pequeno e pode ser carregado facilmente em uma bolsa,
+sempre a mão.  
 
-# Exemplo do uso dessa solução
+A vítima pode apertar o botão do dispositivo, que automaticamente envia um
+pedido de socorro à polícia, junto com sua localização, além de iniciar a
+gravação do som ambiente para ser usado como como prova.
+
 A juíza Clésia dos Santos Barros da 11ª Vara Criminal de Vitória cita um caso
 em [uma matéria para o Fantástico][mulher-agredida-filho] onde o botão do
 pânico salvou a vida de uma mulher. Ela sofria de agressões de um filho
@@ -37,111 +35,64 @@ guarda chegou minutos depois, conseguindo evitar o ataque. "Esse botão salvou
 minha vida porque, naquele dia, se eu não tivesse o botão ele ia me matar",
 conta ela.
 
-# Problema da solução
-Apesar de diversos casos de sucesso do uso dessa tecnologia, ela ainda é pouco
-acessível. João Pessoa, por exemplo, tem um programa semelhante ao do Espírito
-Santo chamado SOS Mulher. Segundo uma [matéria para o jornal Correio da
-Paraíba de 11 de agosto de 2014][correio-da-paraiba], existem 900 medidas
-protetivas solicitadas à Justiça e, ao mesmo tempo, só 15 aparelhos foram
-disponibilizados. Por isso, entendemos que há uma demanda para esse programa
-muito maior que a oferta de aparelhos.
+Apesar desses casos de sucesso, ela ainda é pouco acessível. João Pessoa, por
+exemplo, tem um programa semelhante ao do Espírito Santo chamado SOS Mulher.
+Segundo uma [matéria para o jornal Correio da Paraíba de 11 de agosto de
+2014][correio-da-paraiba], existem 900 medidas protetivas solicitadas à Justiça
+e, ao mesmo tempo, só 15 aparelhos foram disponibilizados. Por isso, entendemos
+que há uma demanda para esse programa muito maior que a oferta de aparelhos.
 
-# Solução alternativa usando smartphone
+## Outras soluções em desenvolvimento
+
 Entendendo esse problema, outras pessoas estão tentando criar uma forma de
-universalizar o acesso a essa tecnologia. O projeto XXX, premiado em 500
-mil reais pelo Google, desenvolveu um aplicativo para smartphones Android que
-replica a funcionalidade do botão do pânico, ACIONANDO BLA BLA BLA
+universalizar o acesso a essa tecnologia. O [Instituto Geledés][geledes] está
+desenvolvendo o projeto [PLP 2.0][plp-20], [vencedor por voto popular no
+Desafio de Impacto Social Google 2014][vencedor-google], um aplicativo para
+smartphones que replica a funcionalidade do botão do pânico adicionando
+gravação de vídeos e, ao invés de acionar a polícia, ele aciona até 5 pessoas
+de confiança da vítima.
 
-# Problema da solução alternativa
-Apesar dessa iniciativa ser mais acessível do que os atuais botões do pânico,
-ela tem outro problema: requer que essa mulher tenha um smartphone Android e um
-plano de dados ativo. Segundo [estimativas do eMarketer de dezembro de
+Essa é uma iniciativa muito importante, pois torna os atuais botões do pânico
+mais acessíveis. Apesar disso, sua abrangência é limitada por exigir o uso de
+um smartphone. Segundo [estimativas do eMarketer de dezembro de
 2013][uso-smartphone], cerca de 20% dos brasileiros possuem smartphone em 2014.
 Esse número diminui quando pensamos em pessoas com smartphone e plano de
 dados.
 
-Um aplicativo para smartphone é importante e permite funcionalidades como
-repassar a localização exata por GPS para a polícia, mas impossibilita o acesso
-por mulheres carentes, que são as em maior situação de risco e que mais se
-beneficiariam de um sistema assim (CITATION NEEDED)
+## Nosso projeto
 
-# Nossa solução
+Nosso projeto é inspirado no botão do pânico. Ele provê duas funcionalidades:
+pedido de socorro e gravação do som ambiente para criação de provas. O
+diferencial é que ele exige somente um celular, não necessariamente smartphone,
+sendo acessível para mais pessoas.
 
-Nosso projeto tem como público-alvo pessoas nessas situações. De classes
-econômicas mais baixas e possivelmente analfabetas. O único requisito é que
-essa pessoa tenha um celular, independente de marca ou modelo.
+### Como funciona?
 
-Funcionamento
--------------
+![Como funciona](como-funciona.svg)
 
-O primeiro passo para uma mulher que queira usar nosso projeto é efetuar um
-cadastro. Nele, teremos informações como seu nome, telefone e endereço da sua
-residência.
+Para isso, criamos um número de telefone que ao receber a ligação de uma pessoa
+previamente cadastrada, atende automaticamente iniciando a gravação do som
+ambiente e envia mensagens de socorro com o nome e endereço dessa vítima para
+uma rede de apoio.
 
-Estando cadastrada, ela precisará adicionar nosso número de telefone na lista
-de discagem rápida no seu celular. A discagem rápida serve para configurar um
-número que, pressionado por alguns segundos, disque automaticamente para um
-número pré-definido.
+De posse desse pedido de socorro, essa rede de apoio aciona as autoridades para
+auxiliar a vítima.
 
-Essa etapa prévia se dá quando ela não está em uma situação de risco. Isso
-sendo feito, quando houver a necessidade de pedir socorro, basta ela segurar o
-botão definido no seu celular por alguns segundos. Automaticamente, esse número
-aceitará sua chamada, começará a gravação e avisará a sua rede de apoio (O QUE
-E REDE DE APOIO).
+### Cadastro
 
-As pessoas da rede de apoio receberão uma mensagem avisando que essa pessoa
-está pedindo socorro, com seu nome e endereço. A partir daí, elas precisarão
-acionar a polícia pelo 190, ou tomar alguma outra providência que seja
-necessária.
+O cadastro se dá através de ONGs ou outras instituições parceiras do projeto.
+Elas irão adicionar no sistema o nome, telefone e endereço dessa vítima, e
+auxiliá-la na configuração do seu celular, para adicionar o número na lista de
+discagem rápida.
 
-Quando o perigo passar, ela desliga a ligação. Tudo já estará gravado e
-disponível para ser usado como prova caso necessário.
+### Rede de apoio
 
-Limitações
-----------
+A rede de apoio é formada por pessoas de ONGs parceiras, possivelmente a mesma
+onde a pessoa fez seu cadastro. A rede também pode ser formada por amigos ou
+parentes da vítima, mas preferimos que haja essa opção dela ser formada por
+terceiros sem contato com o agressor para evitar represálias.
 
-O fato de usarmos celulares burros (não smartphones) nos dá vantagens, ao
-possibilitar mais pessoas terem acesso a esse serviço, mas também nos dá
-desvantagens. O maior problema é que não conseguimos a localização da vítima.
-Se esse ataque acontecer fora de sua residência, não sabemos onde ela está e a
-polícia não vai conseguir ajudá-la. Nesse caso, a funcionalidade do botão se
-limita a gravação do ataque para uso como provas.
-
-Apesar disso, há estatísticas que apontam que mais de 70% dos ataques ocorrem
-na residência da vítima, então esperamos conseguir enviar ajuda na maior parte
-dos casos (CITATION NEEDED)
-
-Rede de apoio
--------------
-
-Inicialmente pensávamos em permitir a cada mulher definir qual é sua rede de
-apoio a ser avisada em emergências. Assim, ela poderia definir amigos ou
-familiares para, quando pedisse ajuda pelo botão do pânico, serem avisados e
-acionarem a polícia.
-
-Entretanto, a Secretária da Mulher de Santa Rita na Paraíba, Camila XXXX, que
-implantou um programa com 5 botões do pânico (lá chamados de programa SOS
-Mulher), levantou o problema do medo dos familiares em se envolver e sofrer
-represálias do agressor. Há um exemplo recente em João Pessoa de uma mulher que
-foi [assassinada pelo ex-marido de sua irmã por falar que foi ela a culpada pela
-sua separação][cunhada-assassinada].  
-
-Para resolver isso, inicialmente cogitamos criar uma rede em que as próprias
-usuárias do botão do pânico formassem a sua rede de apoio. Assim, quando uma
-mulher pedisse socorro, as outras usuárias do sistema seriam avisadas e
-acionariam a polícia. Garantindo que não fosse possível saber quem acionou a
-polícia, e também que essa pessoa estivesse geograficamente longe do agressor,
-garantiriamos a sua segurança. Entretanto, desistimos dessa ideia por causa da
-privacidade das mulheres que acionam o botão, para que os nomes e endereços
-delas não sejam expostos a pessoas desconhecidas, e por uma preocupação que, em
-um momento delicado como esse, essa pessoa não agisse corretamente.
-
-A solução que nos parece mais viável até agora é fazer uma parceria com ONGs e
-entidades que já trabalham nessa área. Assim, além de minimizar o problema do
-cuidado com a privacidade dos dados da vítima, também encontramos um caminho
-para divulgar o sistema e auxiliar mulheres a se cadastrar e configurar seus
-celulares. Nesse caso, o cadastro de uma mulher poderia ser feito através de
-uma entidade local.
+Por isso, o nome dos integrantes da rede de apoio não é divulgado.
 
 ## Perguntas frequentes
 
@@ -157,15 +108,26 @@ seu celular. A partir desse momento, essa pessoa já pode utilizar o serviço.
 Segundo os dados de XXX, em 2014, apenas 20% de 
 Para que o serviço atinja as principais 
 
-
-Licença
--------
+## Licença
 
 Este projeto está licenciado sob a GNU Affero General Public License (AGPL)
 v3.0 ou superior.
 
+### Ícones
+
+Ícones [Police Car][tnp-29232] por Luis Prado, [Cell Phone][tnp-3204] por Alex
+Hartman, e [Person][tnp-12133] por Ferran Brown, retirados do [The Noun
+Project][tnp]
+
+[plp-20]: http://www.plp20.org.br/
+[geledes]: http://www.geledes.org.br/
+[vencedor-google]: https://desafiosocial.withgoogle.com/brazil2014
 [ii-hackathon]: http://edemocracia.camara.gov.br/web/hackathon-de-genero-e-cidadania/inicio#.VHcr0lzN-kB
 [mulher-agredida-filho]: http://g1.globo.com/fantastico/noticia/2014/09/mulher-agredida-pelo-proprio-filho-so-tem-paz-apos-receber-botao-do-panico.html
 [correio-da-paraiba]: http://portalcorreio.uol.com.br/noticias/policia/seguranca/2014/08/11/NWS,244558,8,409,NOTICIAS,2190-BAYEUX-CABEDELO-RECEBEM-APARELHOS-PROGRAMA-SOS-MULHER.aspx
 [uso-smartphone]: http://idgnow.com.br/blog/circuito/2014/01/22/base-de-usuarios-de-smartphones-na-america-latina-vai-aumentar-283-em-2014/
 [cunhada-assassinada]: http://g1.globo.com/pb/paraiba/noticia/2014/11/professora-e-assassinada-na-pb-e-suspeito-diz-ser-ex-cunhado-da-vitima.html
+[tnp]: http://thenounproject.com
+[tnp-29232]: http://thenounproject.com/term/police-car/29232/
+[tnp-3204]: http://thenounproject.com/term/cell-phone/3204/
+[tnp-12133]: http://thenounproject.com/term/person/12133/
