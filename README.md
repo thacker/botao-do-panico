@@ -1,7 +1,5 @@
 # NoTap.me
 
-A violência doméstica no Brasil é um problema social sério. ADICIONA!!!
-
 ## Justificativa
 
 Ao sofrer violência doméstica a vítima tem poucas opções para se defender.
